@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+.home {
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    .nav-header{
+      margin-left: 600px;
+    }
+  
+    .nav-header__nav-link-about{
+      margin-left: 50px;
+    }
+  }
+
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: white;
+}
