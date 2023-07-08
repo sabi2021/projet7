@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo/logo_header.svg";
+import logo from "../../assets/home/logo/logo_header.svg";
 
 const BrandLogo: React.FC = () => {
   return (

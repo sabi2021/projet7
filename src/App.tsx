@@ -1,7 +1,9 @@
-import './App.css'
+import './styles/app.scss'
+
 import { Routes, Route, Navigate, HashRouter } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import ErrorPage from "./pages/404";
 
 function App() {
 
@@ -11,6 +13,7 @@ function App() {
         <Route path="/" element={<Navigate replace to="/accueil" />} />
         <Route path="/accueil" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </HashRouter>
   )
