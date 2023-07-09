@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logements from "../../../logements.json";
-import Card from "./cards";
+import housing from "../../../logements.json";
+import Card from "./Cards";
 
 interface Logement {
   id: number;
@@ -12,10 +12,10 @@ interface Logement {
 const Gallery: React.FC = () => {
   return (
     <div className="home_gallery">
-      {logements.map((logement) => {
+      {housing.map((logement) => {
         return (
           <article key={logement.id}>
-            <Link to={`/logement/${logement.id}`}>
+            <Link to={`/housing/${logement.id}`}>
               <Card image={logement.cover} title={logement.title} />
             </Link>
           </article>
