@@ -1,5 +1,6 @@
 @import "utils/mixins";
 @import "utils/variables";
+@import "utils/flex";
 
 @import "home/home";
 @import "home/header";
@@ -8,3 +9,8 @@
 @import "home/gallery";
 @import "home/cards";
 @import "404/404";
+@import "location_detail/accordion";
+@import "location_detail/carrousel";
+@import "location_detail/housing_detail";
+@import "location_detail/tag";
+
