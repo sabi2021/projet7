@@ -1,12 +1,12 @@
 .accordion {
     display: flex;
-    width: 100%;
     margin: 20px 0;
     justify-content: center;
     align-items: center;
 
     &__dropdown {
       width: 50%;
+    
   
       @media screen and (min-width: $breakpoint-desktop) {
         width: 80%;
@@ -15,14 +15,13 @@
       &__title {
         @extend %flex-between;
         padding: 0.5em 1em;
-        width: 0%;
         background-color: $primary-color;
-        margin: 0 auto;
+        // margin: 0 auto;
         margin-top: 1.5em;
         border-radius: 5px;
   
         @media screen and (min-width: $breakpoint-desktop) {
-          width: 80%;
+          // width: 80%;
         }
   
         h2 {
@@ -32,10 +31,11 @@
         p {
           color: $tertiary-color;
           i {
-            cursor: pointer;
+            cursor:grab;
           }
         }
       }
+
       &__content {
         background-color: $secondary-color;
         width: 100%;
@@ -43,7 +43,7 @@
         border-radius: 5px;
   
         @media screen and (min-width: $breakpoint-desktop) {
-          width: 80%;
+          // width: 80%;
         }
   
         p {

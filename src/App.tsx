@@ -1,8 +1,9 @@
 import './styles/app.scss'
 
 import { Routes, Route, Navigate, HashRouter } from "react-router-dom";
-import About from "./pages/About";
 import Home from "./pages/Home";
+import About from "./pages/About";
+
 import ErrorPage from "./pages/404";
 import HousingDetail from './pages/HousingDetail';
 

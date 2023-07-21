@@ -285,15 +285,7 @@ main {
   }
 }
 .errorContainer__Text {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
   text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 142.6%;
-  margin: 0 11%;
 }
 @media screen and (min-width: 769px) {
   .errorContainer__Text {
@@ -330,7 +322,6 @@ main {
 
 .accordion {
   display: flex;
-  width: 100%;
   margin: 20px 0;
   justify-content: center;
   align-items: center;
@@ -345,16 +336,9 @@ main {
 }
 .accordion__dropdown__title {
   padding: 0.5em 1em;
-  width: 0%;
   background-color: #ff6060;
-  margin: 0 auto;
   margin-top: 1.5em;
   border-radius: 5px;
-}
-@media screen and (min-width: 769px) {
-  .accordion__dropdown__title {
-    width: 80%;
-  }
 }
 .accordion__dropdown__title h2 {
   color: #ffffff;
@@ -373,11 +357,6 @@ main {
   background-color: #f7f7f7;
   width: 100%;
   border-radius: 5px;
-}
-@media screen and (min-width: 769px) {
-  .accordion__dropdown__content {
-    width: 80%;
-  }
 }
 .accordion__dropdown__content p {
   font-size: 20px;
