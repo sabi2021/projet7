@@ -3,6 +3,7 @@
     margin: 20px 0;
     justify-content: center;
     align-items: center;
+    
 
     &__dropdown {
       width: 50%;
@@ -14,22 +15,25 @@
   
       &__title {
         @extend %flex-between;
-        padding: 0.5em 1em;
         background-color: $primary-color;
-        // margin: 0 auto;
         margin-top: 1.5em;
-        border-radius: 5px;
-  
+        border-radius: 7px;
+        margin-left: 108px;
+        margin-right: 108px;
+        cursor:grab;
         @media screen and (min-width: $breakpoint-desktop) {
           // width: 80%;
         }
   
         h2 {
           color: $tertiary-color;
+          margin-left: 10px; 
           @include font(24px, 500);
         }
         p {
           color: $tertiary-color;
+          cursor:grab;
+          margin-right: 30px;
           i {
             cursor:grab;
           }
@@ -38,7 +42,8 @@
 
       &__content {
         background-color: $secondary-color;
-        width: 100%;
+        width: 84%;
+        margin-left: 108px;
   
         border-radius: 5px;
   

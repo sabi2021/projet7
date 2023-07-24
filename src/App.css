@@ -146,8 +146,6 @@ main {
 .footer {
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
   width: 100%;
   height: 209px;
   margin-top: 5%;
@@ -156,6 +154,7 @@ main {
 }
 .footer__logo {
   margin-bottom: 2%;
+  margin-top: 2%;
   width: 122px;
   height: 40px;
 }
@@ -263,6 +262,7 @@ main {
   flex-direction: column;
   justify-content: center;
   margin: 22px 22px;
+  font-family: Montserrat;
 }
 .errorContainer__Number {
   display: flex;
@@ -298,8 +298,7 @@ main {
 }
 .errorContainer__Link {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   color: #ff6060;
   font-size: 14px;
   font-style: normal;
@@ -313,7 +312,7 @@ main {
     font-style: normal;
     font-weight: 500;
     line-height: 142.6%;
-    margin-top: 7rem;
+    margin-top: 6rem;
   }
 }
 .errorContainer__Link:hover, .errorContainer__Link:focus {
@@ -335,13 +334,16 @@ main {
   }
 }
 .accordion__dropdown__title {
-  padding: 0.5em 1em;
   background-color: #ff6060;
   margin-top: 1.5em;
-  border-radius: 5px;
+  border-radius: 7px;
+  margin-left: 108px;
+  margin-right: 108px;
+  cursor: grab;
 }
 .accordion__dropdown__title h2 {
   color: #ffffff;
+  margin-left: 10px;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -349,13 +351,16 @@ main {
 }
 .accordion__dropdown__title p {
   color: #ffffff;
+  cursor: grab;
+  margin-right: 30px;
 }
 .accordion__dropdown__title p i {
-  cursor: pointer;
+  cursor: grab;
 }
 .accordion__dropdown__content {
   background-color: #f7f7f7;
-  width: 100%;
+  width: 84%;
+  margin-left: 108px;
   border-radius: 5px;
 }
 .accordion__dropdown__content p {
@@ -523,6 +528,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  margin-top: 10px;
 }
 @media screen and (min-width: 769px) {
   .description-info {
@@ -590,6 +596,7 @@ main {
 .description-info__proprietaire__rate .etoile {
   width: 15px;
   height: 15px;
+  margin-right: 15px;
 }
 @media screen and (min-width: 769px) {
   .description-info__proprietaire__rate .etoile {
@@ -609,6 +616,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: -25px;
   }
   .description-centent__description {
     width: 50%;

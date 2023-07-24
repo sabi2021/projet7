@@ -16,9 +16,9 @@ const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
 
   return (
     <div className="accordion__dropdown__container">
-      <div className="accordion__dropdown__title">
+      <div onClick={display} className="accordion__dropdown__title">
         <h2>{title}</h2>
-        <p onClick={display} role="button" tabIndex={0}>
+        <p  role="button" tabIndex={0}>
           {isOpen ? (
             <img src={arrowUp} alt="Close" />
           ) : (
