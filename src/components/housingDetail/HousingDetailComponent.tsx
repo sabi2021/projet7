@@ -26,7 +26,7 @@ const HousingDetailComponent = () => {
 
   return (
     <>
-      {housingDetail ? (
+      {housingDetail? (
         <div className="Fiche-container">
           <Carrousel slides={housingDetail?.pictures} />
           <section className="Fiche-logement">

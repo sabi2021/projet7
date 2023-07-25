@@ -21,6 +21,12 @@ main {
   margin-left: 90px;
   margin-right: 90px;
 }
+@media screen and (max-width: 769px) {
+  main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 
 .banner {
   border-radius: 10px;
@@ -327,19 +333,30 @@ main {
 }
 .accordion__dropdown {
   width: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 @media screen and (min-width: 769px) {
   .accordion__dropdown {
     width: 80%;
   }
 }
+@media screen and (max-width: 769px) {
+  .accordion__dropdown {
+    width: 100%;
+  }
+}
 .accordion__dropdown__title {
   background-color: #ff6060;
   margin-top: 1.5em;
   border-radius: 7px;
-  margin-left: 108px;
-  margin-right: 108px;
   cursor: grab;
+}
+@media screen and (min-width: 769px) {
+  .accordion__dropdown__title {
+    margin-left: 108px;
+    margin-right: 108px;
+  }
 }
 .accordion__dropdown__title h2 {
   color: #ffffff;
@@ -360,8 +377,12 @@ main {
 .accordion__dropdown__content {
   background-color: #f7f7f7;
   width: 70%;
-  margin-left: 108px;
   border-radius: 5px;
+}
+@media screen and (min-width: 769px) {
+  .accordion__dropdown__content {
+    margin-left: 108px;
+  }
 }
 .accordion__dropdown__content p {
   font-size: 20px;
@@ -659,6 +680,10 @@ main {
     font-weight: 500;
     line-height: 142.6%;
   }
+}
+
+body {
+  margin: 0px;
 }
 
 /*# sourceMappingURL=App.css.map */

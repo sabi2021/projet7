@@ -1,6 +1,11 @@
 main {
   margin-left: 90px;
   margin-right: 90px;
+
+  @media screen and (max-width: $breakpoint-desktop) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .banner {
